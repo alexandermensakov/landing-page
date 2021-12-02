@@ -73,7 +73,12 @@ right: 250px;
 top: 15px;}
 
 
-
+#loginh3{
+    margin-top: 100px;
+    color: white;
+    font-family:sans-serif ;
+    margin-left: 20px; 
+}
 
 
 #name{
@@ -111,7 +116,7 @@ height: 60px;
      border-radius:40px ;
      border: none;
      padding-left: 20px;
-     
+     margin-left: 200px;
 
  }
 #filters{
@@ -150,10 +155,11 @@ height: 60px;
     border-radius: 50px;
     padding-left: 10px;
     margin-top: 10px;
+   
 
 }
 
-#login h3,#signup h3{
+#signup h3{
  color: white;
  font-family:sans-serif ;
  margin-left: 20px; 
@@ -409,6 +415,9 @@ right: 125px;
         font-size: 1rem;
         
         
+           }
+           .searchbar{
+               margin: 0;
            }
           
     }
