@@ -1,0 +1,525 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background:url(https://files.123freevectors.com/wp-content/original/155469-abstract-dark-grey-background-design.jpg);
+    padding: 2rem;
+}
+
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+width: 100%;
+
+}
+#page{
+
+background: linear-gradient(to right top,#1e1e1e,  #797979, #1e1e1e);
+height: 100%;
+width: 80%;
+border: 1px solid white;
+
+}
+#header-img,
+.chair{
+width: 200px;
+height: 200px;
+margin:0px;
+padding: 0px;
+
+}
+
+
+.soffa,.table{
+
+width: 400px;
+height: 200px;
+display: flex;
+
+}
+
+#images{
+width: 35%;
+height: 620px;
+margin: 0;
+
+}
+
+#header {
+display:flex ;
+height: 300px;
+
+flex-direction: row;
+}
+
+#nav-bar a{
+   text-decoration: none;
+   margin-top: 50px;
+   margin-left: 30px;
+   margin-right: 10px;
+    color: white;
+    font-family:  'Arial Narrow';
+   
+}
+nav{display: flex;
+justify-content: center;
+position: fixed;
+right: 250px;
+top: 15px;}
+
+
+
+
+
+#name{
+    color: white;
+    width: 30%;
+    margin-top: 30px;
+    
+}
+#name h2{
+    margin-top: 10px; 
+    font-family:  'Arial Narrow'
+}
+#name h1{
+    font-family:  'Arial Narrow'
+}
+
+#nav-bar h1{
+    margin-top: 50px;
+   margin-left: 30px;
+   margin-right: 10px;
+
+}
+#nav-bar {
+height: 60px;
+}
+
+#searchbox{
+    display: flex;
+    justify-content: center;
+    
+}
+ .searchbar{
+     width: 50%;
+     height: 40px;
+     border-radius:40px ;
+     border: none;
+     padding-left: 20px;
+     
+
+ }
+#filters{
+    display: flex;
+    justify-content: right;
+    color: white;
+}
+
+#checkbox{
+  display: flex;
+  flex-direction: column;
+  height: 50px;  
+}
+
+#filters h2{
+    margin-right:30px ;
+}
+
+#videobox{
+   
+    display: flex;
+    justify-content:center;
+    margin-top: 30px;
+}
+
+#login,#signup{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.placeholder{
+    width: 400px;
+    height: 35px;
+    border: none;
+    border-radius: 50px;
+    padding-left: 10px;
+    margin-top: 10px;
+
+}
+
+#login h3,#signup h3{
+ color: white;
+ font-family:sans-serif ;
+ margin-left: 20px; 
+ margin-top: 10px;
+}
+#loginbtn{
+    width: 100px;
+    height: 30px;
+    border-radius: 40px;
+    border:1px solid white;
+    background-color: rgb(63, 63, 63);
+    color: white;
+    margin-top:15px ;
+}
+#login{
+    margin-top: 30px;
+
+
+}
+
+#cartbox{
+    background-image:url(cart.jpg);
+    width: 80%;
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    border: 2px solid white;
+  
+}
+#cart{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.price{
+color: white;
+display: flex;
+width: 45%;
+flex-direction: column;
+align-items: flex-end;
+padding-top:35px ;
+padding-right: 35px;
+}
+.info{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    width: 50%;
+   
+}
+
+.info h4{
+    margin-top: 15px;
+}
+.info h2{
+  margin-top:40px ;
+}
+
+.card{
+    width: 75%;
+    color: white;
+    border-radius: 10px;
+    height: 30px;
+    background-color: black;
+    border: 1px solid white;
+    padding-left: 5px;
+   
+
+}
+
+.dc{
+    width: 30%;
+    color: white;
+    border-radius: 10px;
+    height: 30px;
+    background-color: black;
+    border: 1px solid white;
+    padding-left: 5px;
+   
+
+}
+
+.price Button{
+    color: white;
+    background-color: blue;
+    border: 1px solid white;
+    width: 75px;
+    border-radius: 10px;
+    height: 40px;
+margin-top: 20px;
+
+}
+.price H3,.price h4{
+margin-top: 20px;
+
+}
+
+.footerbox{
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    height: 230px;
+}
+
+#footer{
+  bottom:1px;
+   width: 100%;
+    background-color: rgba(32, 32, 32);
+    height:150px;
+    display: flex;
+    color: white;
+    
+align-items: center;
+justify-content: center;
+}
+
+#order{
+display: flex;
+
+
+}
+.star{
+    width: 30px;
+    height: 30px;
+}
+
+
+#Number,#Rated,#footeremail{
+    margin-left: 50px;
+    font-size: 1.2rem;
+}
+
+#reporttext, #footeremail{
+margin-left: 15px;
+
+}
+
+ #email{
+width:80%;
+height: 20px;
+border: 1px solid white;
+border-radius: 10px;
+background-color: black;
+color: white;
+padding-left: 7px;
+}
+#form{
+display: flex;
+align-items: center;
+
+
+}
+
+
+#submit{
+    color: white;
+    background-color: rgb(36, 3, 223);
+    width: 50px;
+    height: 20px;
+    border-radius: 5px;
+
+    border: 1px solid white;
+}
+a{
+    font-size: 1.4rem;
+}
+
+@media (max-width:1523px){
+     .chair,#header-img {
+        width: 150px;
+        height: 150px;
+    }
+    .soffa,.table{
+        width: 300px;
+        height: 150px;
+    }
+  h1{
+        font-size: 1rem;
+        margin-top: 40px;
+      
+
+    }
+    h2{
+      
+        font-size: 1rem;
+    }
+
+    h4{
+        font-size: 0.8rem;
+    }
+   
+    .card, .dc{
+        height: 20px;
+    }
+    
+}
+
+@media (max-width:1167px){
+    .chair,#header-img {
+       width: 100px;
+       height: 100px;
+   }
+   .soffa,.table{
+       width: 200px;
+       height: 100px;
+   }
+
+   
+}
+
+@media (max-width:1000px){
+nav {
+right: 125px;
+
+
+   }
+  
+}
+
+@media (max-width:850px){
+    nav {
+    right: 100px;
+    
+    
+       }
+       .chair,#header-img {
+        width: 75px;
+        height: 75px;
+    }
+    .soffa,.table{
+        width: 150px;
+        height: 75px;
+        
+    }
+  
+
+    @media (max-width:1046px){
+        #Number, #Rated, #footeremail, #reporttext {
+            font-size: 0.7rem;
+           margin-left: 40px;
+             }
+        
+
+
+    }
+
+
+
+    @media (max-width:780px){
+         a {
+        font-size: 1rem;
+        
+        
+           }
+          
+    }
+    @media (max-width:1150px){
+        #Number, #Rated, #footeremail{
+       font-size: 0.8rem;
+        }
+    #card{
+        height: 20px;
+        width: 100px;
+    }
+    }
+
+    @media (max-width:850px){
+        #Number, #Rated, #footeremail, #reporttext {
+       font-size: 0.7rem;
+      margin-left: 25px;
+        }
+    .star{
+        width: 15px;
+        height: 15px;
+    }
+    }
+
+    @media (max-width:650px){
+ .placeholder{
+width: 200px;
+ }
+}}
+
+
+@media (max-width:671px){
+a .nav-link{
+    font-size: 0.7rem;
+}
+.searchbar{
+    width: 200px;
+}
+
+
+
+.chair,#header-img {
+    width: 55px;
+    height: 55px;
+}
+.soffa,.table{
+    width: 110px;
+    height: 55px;
+}
+}
+
+@media (max-width:650px){
+
+    #nav-bar a{
+        margin-right: 0px;
+    }
+}
+
+@media (max-width:580px){
+
+    #nav-bar a{
+        margin-left: 20px;
+        font-size: 0.8rem;
+    }
+
+
+
+        .chair,#header-img {
+            width: 40px;
+            height: 40px;
+        }
+        .soffa,.table{
+            width: 80px;
+            height: 40px;
+        }
+         #Number, #Rated, #footeremail, #reporttext {
+           margin-left: 3px;
+        }
+        #video{
+            width: 200px;
+            height: 100px;
+        
+        }
+        #nav-bar a{
+            margin-left: 20px;
+            font-size: 0.8rem;
+        }
+    }
+
+
+
+@media (max-width:470px){
+
+    #nav-bar a{
+        margin-left: 10px;
+        font-size: 0.5rem;
+    }
+    .star{
+        width: 10px;
+        height: 10px;
+    }
+    font{
+        font-size: 0.6rem;
+    }
+
+    #footer{
+        display: flex;
+        flex-direction: column;
+    }
+   
+}
+
+
+
